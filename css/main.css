@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--color-black);
 }
 
@@ -36,7 +36,7 @@ img {
 h1,
 h2,
 h3 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Abril Fatface", Georgia, "Times New Roman", Times, serif;
   margin-bottom: 5px;
 }
 h1 {
@@ -81,7 +81,7 @@ nav {
   top: 0;
   overflow: auto;
   transition: color 300ms, background 500ms;
-  font-family: monospace;
+  font-family: "Space Mono", monospace;
   font-size: 18px;
   font-weight: bold;
   z-index: 1;
