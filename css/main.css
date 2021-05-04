@@ -299,18 +299,12 @@ ul li {
 }
 
 @media (max-width: 767px) {
-  nav ul {
-    flex-wrap: wrap;
-    width: 100%;
+  nav {
+    visibility: hidden;
   }
 
-  nav ul li {
-    margin: 0 auto;
-  }
-
-  nav ul li a {
-    font-size: 0.9rem;
-    padding: 0 0.5rem;
+  h1 {
+    font-size: 5em;
   }
 
   .container {
