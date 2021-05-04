@@ -75,6 +75,7 @@ section {
 
 /*menu*/
 nav {
+  visibility: visible;
   background-color: var(--nav-bg-color);
   position: sticky;
   top: 0;
@@ -96,7 +97,8 @@ nav ul li {
   margin: 0;
 }
 
-nav ul li a {
+nav ul li a,
+nav ul li a:link {
   display: block;
   padding: 0 1.5rem;
   height: 7vh;
