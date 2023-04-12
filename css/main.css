@@ -213,6 +213,10 @@ i:hover {
   color: #f58519;
   transition: color 120ms;
 }
+
+.text_white a:link {
+  color: var(--color-white);
+}
 /*IDs*/
 
 #header {
@@ -272,6 +276,18 @@ ul li {
 
 #d_em_c {
   padding: 10em 0;
+}
+
+#d_em_c a,
+#d_em_c a:link{
+  text-decoration: none;
+  color: var(--color-white);
+  transition: color 120ms;
+}
+
+#d_em_c a:hover{
+  color: #f58519;
+  transition: color 120ms;
 }
 
 #experiencia h4 {
