@@ -377,4 +377,10 @@ ul li {
   #experiencia hr {
     margin: 0 20%;
   }
+
+  #vetorial,
+  #web,
+  #unity {
+    flex-direction: column-reverse;
+  }
 }
