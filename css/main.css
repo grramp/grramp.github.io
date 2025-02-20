@@ -359,6 +359,14 @@ ul li {
     flex-direction: column;
   }
 
+  .conteudo-img {
+    max-width: 100px;
+    max-height: 100px;
+  
+    margin: auto;
+    display: block;
+  }
+
   #quem-sou {
     flex-direction: column;
   }
