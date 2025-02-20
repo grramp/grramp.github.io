@@ -1,6 +1,22 @@
 const nav = document.querySelector("nav");
 const targets = document.querySelectorAll("section");
+const bemvind = document.getElementById("bem_vind");
 
+var isBenVindOn = true;
+
+//animação inicio
+setInterval(() => {
+  if(isBenVindOn){
+    bemvind.textContent = String.fromCharCode(8194);
+    isBenVindOn = false;
+  }
+  else{
+    bemvind.textContent = "_";
+    isBenVindOn = true;
+  }
+}, 500);
+
+//Observador para menu mudar de cor
 const sectionOptions = {
   threshold: 0,
   rootMargin: "-6.5% 0px -93% 0px",
