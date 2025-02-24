@@ -27,6 +27,7 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
   color: var(--color-black);
+  background-color: #fcfcfc;
 }
 
 img {
@@ -360,8 +361,8 @@ ul li {
   }
 
   .conteudo-img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 120px;
+    max-height: 120px;
   
     margin: auto;
     display: block;
